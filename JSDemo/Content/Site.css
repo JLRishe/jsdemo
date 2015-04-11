@@ -1,0 +1,41 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#scriptBox {
+    width: 65%;
+}
+
+#resultBox {
+    width: 35%;
+}
+
+#scriptBox, #resultBox {
+    float: left;
+    padding: 10px;
+    background-color: #ddd;
+    height: 100vh;
+}
+
+textarea {
+    font-size: 22pt;
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+    white-space: pre-wrap;
+    font-family: courier;
+    padding: 5px;
+}
+
+#buttons {
+    margin: 0.5em 0;
+    text-align: right;
+    font-size: 16pt;
+}
+
+input[type=button] {
+    border: 1px solid black;
+}
+
